@@ -1,5 +1,6 @@
 # vue-simple-todo
 Refer the blog for details: http://shabeebk.com/blog/simple-vue-2-example-todo-list/
+
 Demo: https://vue2-todo.pages.dev/
 
 ## Project setup
