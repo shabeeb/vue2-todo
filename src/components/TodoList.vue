@@ -6,6 +6,14 @@
           <div class="col col-lg-9 col-xl-7">
             <div class="card rounded-3">
               <div class="card-body p-4">
+                <div>
+                  <a
+                    href="http://shabeebk.com/blog/simple-vue-2-example-todo-list/"
+                    target="_sb"
+                    class="link"
+                    >Read Full Blog
+                  </a>
+                </div>
                 <h4 class="text-center my-3 pb-3">Simple Vue 2 To Do App</h4>
 
                 <form
@@ -19,10 +27,8 @@
                         id="form1"
                         v-model="newTodo"
                         class="form-control"
+                        placeholder="Enter a task here"
                       />
-                      <label class="form-label" for="form1"
-                        >Enter a task here</label
-                      >
                     </div>
                   </div>
 
@@ -104,12 +110,12 @@ export default {
       todos: [
         {
           id: 1,
-          title: "Cook Food ",
+          title: "Buy groceries for next week",
           completed: false,
         },
         {
           id: 2,
-          title: "Clean ",
+          title: "Pay credit card bill ",
           completed: false,
         },
       ],
@@ -150,6 +156,9 @@ li {
 }
 a {
   color: #37dd92;
+}
+a.link {
+  color: #3771dd;
 }
 .stricked {
   text-decoration: line-through;
